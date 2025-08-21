@@ -47,5 +47,5 @@ Things I want to work on for this project:
 
 Bugs to fix:
 1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly and start the process again.
-2. The validation agent doesn't always give the most accurate results event after using r
+2. The validation agent doesn't always give the most accurate results event and sometimes will not coordinate with other agents, I would reccomend clearing up your cache or looking up a different website link
 
