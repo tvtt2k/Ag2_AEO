@@ -1,6 +1,18 @@
 # AEO Validator:All the different ways we look for the same things
 
-The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, there are multiple ways to look for your company's information and the idea is to use this tool to make sure we highlight your comapny, we can also work with agents you can also architect queries in different languages. The idea is use this tool for Answer Engine Optimisation, using agentic frameworks to market a website so whenever someone looks for a company using LLMs they are sent to your website.
+The core idea behind AG2_AEO is to generate and validate all the different ways a user might search for a particular company. Traditional SEO focuses on keywords, but Answer Engine Optimization (AEO) focuses on ensuring your company is discoverable across natural language queries, multiple languages, and varied search intents.
+
+By leveraging agentic frameworks, AG2_AEO:
+
+i. Architects diverse queries that real users might use when looking for your company.
+
+ii. Optimizes search visibility by testing whether your website appears for those queries.
+
+iii. Expands reach across languages and contexts, making your company visible no matter how people ask.
+
+iv. Highlights your company in LLM-driven answer engines (Google’s SGE, Bing Copilot, ChatGPT browsing, etc.), ensuring users are directed to your site when they ask questions about your brand or industry.
+
+In short, AG2_AEO helps transform your website from being just another search result into the primary answer that AI systems and modern search engines deliver.
 
 AEO Validator is an automated multi-agent pipeline designed to **validate search engine visibility** for a given company’s website.  
 It leverages [AG2.ai's framework](https://ag2.ai/#hero) to coordinate multiple conversational agents that perform:
