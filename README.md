@@ -1,7 +1,6 @@
 # AEO Validator:All the different ways we look for the same things
 
-The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, working with agents you can also architect queries in different languages.
-
+The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, there are multiple ways to look for your company's information and the idea is to use this tool to make sure we highlight your comapny, we can also work with agents you can also architect queries in different languages. The idea is use this tool for Answer Engine Optimisation, using agentic frameworks to market a website so whenever someone looks for a company using LLMs they are sent to your website.
 
 AEO Validator is an automated multi-agent pipeline designed to **validate search engine visibility** for a given company’s website.  
 It leverages [AG2.ai's framework](https://ag2.ai/#hero) to coordinate multiple conversational agents that perform:
@@ -32,14 +31,19 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 ---
 🔑 Setup
 1. Clone the repository.
-2. Create a .env file in the project root with your OpenAI API key.
-3. Create a virtual env and pip install the requirements
-4. CD into the folder src
+2. Create a virtual env and pip install the requirements
+3. CD into the folder src
+4. Create a .env file with OPENAI_API_KEY in the src folder with your OpenAI API key.
 5. Run "python main.py"
 
 ---
 I'm sharing a video on how to run the project:
 https://youtu.be/SNCaqAqn9Bk
+
+Things I want to work on for this project:
+1. Prompt evaluation
+2. Fine-tuning models
+3. Access to a bunch of different apis, integrating LLMs based on their compute ability
 
 Bugs to fix:
 1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly and start the process again.
