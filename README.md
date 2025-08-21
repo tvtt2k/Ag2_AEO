@@ -30,7 +30,9 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 🔑 Setup
 1. Clone the repository.
 2. Create a .env file in the project root with your OpenAI API key.
-3. Run "python main.py"
+3. CD into the folder src
+4. Create a virtual env and pip install the requirementw
+5. Run "python main.py"
 
 ---
 Common issues:
