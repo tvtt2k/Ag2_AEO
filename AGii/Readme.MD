@@ -1,6 +1,6 @@
 # AEO Validator:All the different ways we look for the same things
 
-The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, working with agents you can also architect queries in different languages.
+The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, working with agents you can also architect queries in different languages. I'm targeting answer engine optimisation solutions, as LLMs become the go to there should be a focus on marketing to agents and we are leveraging agents ability to generate new string everytime to see how they pick up target keywords, which ideally should be leading to target company's website. In case which it doesn't we should be able to figure out why and make changes accordingly
 
 
 AEO Validator is an automated multi-agent pipeline designed to **validate search engine visibility** for a given company’s website.  
@@ -30,14 +30,18 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 - Configurable with different foundational models.
 
 ---
-🔑 Setup
-1. Clone the repository.
-2. Create a .env file in the project root with your OpenAI API key.
-3. Create a virtual env and pip install the requirements
-4. CD into the folder src
+## 🔑 Setup
+1. Clone the repository
+2. Create a virtual env and pip install the requirements
+3. CD into the folder src
+4. Create a .env file in the src folder and put your OpenAI key in "OPENAI_API_KEY"
 5. Run "python main.py"
 
 ---
+ ## 🐞Bugs to fix
+1. Sometimes the agent pullup with example.com, cancel the process and start again - Incase you keep facing that issue again and again, please clean up your cache or try a different link
+2. There are issues with Agent Orchestration, sometimes the Validator agent will not run - Run the code again
+
 I'm sharing a video on how to run the project:
 https://youtu.be/SNCaqAqn9Bk
 
