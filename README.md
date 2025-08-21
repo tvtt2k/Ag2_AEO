@@ -35,8 +35,9 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 5. Run "python main.py"
 
 ---
+I'm sharing a video on how to run and use the project:
+https://youtu.be/SNCaqAqn9Bk
+
 Common issues:
-1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly
+1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly and start the process again
 
-
-I'm also sharing a video on how to run and use the project
