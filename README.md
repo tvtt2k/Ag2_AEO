@@ -38,7 +38,7 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 5. Run "python main.py"
 
 ---
-I'm sharing a video on how to run and use the project:
+I'm sharing a video on how to run the project:
 https://youtu.be/SNCaqAqn9Bk
 
 Bugs to fix:
