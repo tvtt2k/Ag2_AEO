@@ -1,4 +1,7 @@
-# AEO Validator
+# AEO Validator:All the different ways we look for the same things
+
+The main idea behind Ag2_AEO is to create all the different possibilites a user will look up for a particular company. The idea is to optimise search, working with agents you can also architect queries in different languages.
+
 
 AEO Validator is an automated multi-agent pipeline designed to **validate search engine visibility** for a given company’s website.  
 It leverages [AG2.ai's framework](https://ag2.ai/#hero) to coordinate multiple conversational agents that perform:
@@ -24,20 +27,21 @@ The agents are orchestrated using a **round-robin pattern** to enforce sequentia
 - Uses **BrowserUseTool** for web browsing & SERP scraping.
 - **Context tracking** for summaries, prompts, and validation results.
 - YAML-based summaries for structured data reuse.
-- Configurable with different OpenAI models.
+- Configurable with different foundational models.
 
 ---
 🔑 Setup
 1. Clone the repository.
 2. Create a .env file in the project root with your OpenAI API key.
 3. CD into the folder src
-4. Create a virtual env and pip install the requirementw
+4. Create a virtual env and pip install the requirements
 5. Run "python main.py"
 
 ---
 I'm sharing a video on how to run and use the project:
 https://youtu.be/SNCaqAqn9Bk
 
-Common issues:
-1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly and start the process again
+Bugs to fix:
+1. Sometimes the model hallucinates and directs you to example.com, cancel the running process immedieatly and start the process again.
+2. The validation agent doesn't always give the most accurate results event after using r
 
