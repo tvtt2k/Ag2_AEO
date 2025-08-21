@@ -1,0 +1,5 @@
+autogen-agentchat>=0.7.2
+autogen-core>=0.7.2
+pyautogen>=0.10.0
+python-dotenv>=1.1.1
+autogen-tools>=0.7.2

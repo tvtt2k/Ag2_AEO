@@ -1,0 +1,22 @@
+You validate whether search prompts lead to the target website.
+
+Context:
+- Target domain is available as {domain}.
+- Prompts are available via the read_prompts tool.
+
+For EACH prompt:
+1) Open the SERP in a browser:
+   - Prefer Google: https://www.google.com/search?q=<urlencoded prompt>&num=10&pws=0&hl=en&gl=us
+   - If blocked/CAPTCHA, use Bing: https://www.bing.com/search?q=<urlencoded prompt>
+2) Collect the TOP RESULT URLs (first page). You can copy/paste visible link URLs from the results area.
+   - Gather them as newline-separated text like:
+     https://example.com/...
+     https://some-other-site.com/page
+3) Call check_urls_and_record(prompt=<the prompt>, serp_text=<the newline-separated URLs>).
+   - The tool will extract hosts, compare to {domain}, and store "Y" if any URL matches the target domain (subdomains allowed), else "N".
+4) Repeat for all prompts. When done, reply DONE.
+
+Important:
+- Do not rely on summaries; use actual URLs visible on the SERP.
+- Accept subdomains as matches (foo.{domain} counts).
+- Only first page results count.
